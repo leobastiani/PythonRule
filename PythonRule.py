@@ -7,7 +7,7 @@ class PythonRule():
         self.root = root
 
         self.root.attributes('-fullscreen',True)
-        self.root.attributes("-alpha", 0.5)
+        self.root.attributes("-alpha", 0.3)
 
         self.canvas = tk.Canvas(self.root)
         self.canvas.pack(fill=tk.BOTH, expand=1)
